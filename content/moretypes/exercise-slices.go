@@ -2,7 +2,7 @@
 
 package main
 
-import "golang.org/x/tour/pic"
+import "github.com/Armienn/tour/pic"
 
 func Pic(dx, dy int) [][]uint8 {
 }

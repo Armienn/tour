@@ -25,13 +25,13 @@ import (
 	"golang.org/x/tools/playground/socket"
 
 	// Imports so that go build/install automatically installs them.
-	_ "golang.org/x/tour/pic"
-	_ "golang.org/x/tour/tree"
-	_ "golang.org/x/tour/wc"
+	_ "github.com/Armienn/tour/pic"
+	_ "github.com/Armienn/tour/tree"
+	_ "github.com/Armienn/tour/wc"
 )
 
 const (
-	basePkg    = "golang.org/x/tour/"
+	basePkg    = "github.com/Armienn/tour/"
 	socketPath = "/socket"
 )
 
