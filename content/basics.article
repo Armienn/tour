@@ -48,41 +48,41 @@ Alle "ueksporterede" navne kan ikke tilgås udenfor pakken, kun inde i.
 
 Kør koden. Læg mærke til fejlbeskeden.
 
-Ret `math.pi` til `math.Pi` for at fikse fejlen, og prøv igen
+Ret `math.pi` til `math.Pi` for at fikse fejlen, og prøv igen.
 
 .play basics/exported-names.go
 
-* Functions
+* Funktioner
 
-A function can take zero or more arguments.
+En funktion kan tage nul eller flere argumenter.
 
-In this example, `add` takes two parameters of type `int`.
+I det her eksempel tager `add` to parametre af typen `int`. 
 
-Notice that the type comes _after_ the variable name.
+Læg mærke til at typen kommer _efter_ navnet på variablen.
 
-(For more about why types look the way they do, see the [[https://blog.golang.org/gos-declaration-syntax][article on Go's declaration syntax]].)
+(For mere omkring hvorfor typer ser ud som de gør, se [[https://blog.golang.org/gos-declaration-syntax][artiklen om Go's deklarationssyntaks]].)
 
 .play basics/functions.go
 
-* Functions continued
+* Funktioner fortsat
 
-When two or more consecutive named function parameters share a type, you can omit the type from all but the last.
+Når to eller flere funktionsparametre i træk har samme type, kan man undlade typen fra alle bortset fra den sidste.
 
-In this example, we shortened
+I det her eksempel har vi forkortet
 
 	x int, y int
 
-to
+til
 
 	x, y int
 
 .play basics/functions-continued.go
 
-* Multiple results
+* Adskillige resultater
 
-A function can return any number of results.
+En funktion kan returnere et vilkårligt antal resultater.
 
-The `swap` function returns two strings.
+`swap` funktionen returnerer to "strings" (tekst-stykker).
 
 .play basics/multiple-results.go
 
