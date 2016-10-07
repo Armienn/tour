@@ -106,7 +106,7 @@ En `var` erklæring kan være på enten pakke eller funktionsniveauet. Vi kan se
 
 .play basics/variables.go
 
-* Variabler mew initialiseringer
+* Variabler med initialiseringer
 
 En var deklaration kan inkludere initialiseringer, en per variabel.
 
