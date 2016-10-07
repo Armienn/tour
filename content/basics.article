@@ -185,49 +185,49 @@ Prøv at fjerne `float64` eller `uint` konverteringerne i eksemplet og se hvad d
 
 .play basics/type-conversions.go
 
-* Type inference
+* Type inferens
 
-When declaring a variable without specifying an explicit type (either by using the `:=` syntax or `var`=` expression syntax), the variable's type is inferred from the value on the right hand side.
+Når man deklarerer en variabel uden at specifecere en eksplicit type (enten ved at bruge `:=` eller `var`=` syntaksen), bliver variablens type udregnet ud fra værdien på højre side.  
 
-When the right hand side of the declaration is typed, the new variable is of that same type:
+Når højre side af en deklaration har en type, er den nye variabel af den samme type:
 
 	var i int
-	j := i // j is an int
+	j := i // j er en int
 
-But when the right hand side contains an untyped numeric constant, the new variable may be an `int`, `float64`, or `complex128` depending on the precision of the constant:
+Men når den højre side indeholder en typeløs numerisk konstant, kan den nye variabel blive enten en `int`, `float64`, eller `complex128` afhængigt af præcisionen af konstanten:  
 
 	i := 42           // int
 	f := 3.142        // float64
 	g := 0.867 + 0.5i // complex128
 
-Try changing the initial value of `v` in the example code and observe how its type is affected.
+Prøv at ændre den initielle værdi af `v` i eksempelkoden og observer hvordan dens type bliver påvirket. 
 
 .play basics/type-inference.go
 
-* Constants
+* Konstanter
 
-Constants are declared like variables, but with the `const` keyword.
+Konstanter bliver deklareret ligesom variabler, men med `const` nøgleordet. 
 
-Constants can be character, string, boolean, or numeric values.
+Konstanter kan være tegn ("character"), tekst ("string"), logiske ("boolean") eller numeriske værdier.  
 
-Constants cannot be declared using the `:=` syntax.
+Konstanter kan ikke blive deklareret med `:=` syntaksen. 
 
 .play basics/constants.go
 
-* Numeric Constants
+* Numeriske Konstanter
 
-Numeric constants are high-precision _values_.
+Numeriske konstanter er høj-præcisions _værdier_.
 
-An untyped constant takes the type needed by its context.
+En typeløs konstant tager den type der er behov for i dens kontekst.
 
-Try printing `needInt(Big)` too.
+Prøv at printe `needInt(Big)` også. 
 
-(An `int` can store at maximum a 64-bit integer, and sometimes less.)
+(En `int` kan gemme højst et 64-bit heltal ("integer"), og nogle gange mindre.)
 
 .play basics/numeric-constants.go
 
-* Congratulations!
+* Tillykke!
 
-You finished this lesson!
+Du har færdiggjort den her lektion!
 
-You can go back to the list of [[/list][modules]] to find what to learn next, or continue with the [[javascript:click('.next-page')][next lesson]].
+Du kan gå tilbage til listen af [[/list][moduler]] for at finde ud af hvad at lære næst, eller fortsætte med [[javascript:click('.next-page')][næste lektion]].  
