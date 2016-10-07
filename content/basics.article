@@ -14,41 +14,41 @@ Dette program bruger pakkerne med importeringsstierne `"fmt"` and `"math/rand"`.
 
 Af konvention er pakkenavnet det samme som det sidste element af importeringsstien. For eksempel består pakken `"math/rand"` af filer, som begynder med erklæringen `package`rand`.
 
-#appengine: *Note:* the environment in which these programs are executed is
-#appengine: deterministic, so each time you run the example program
-#appengine: `rand.Intn` will return the same number.
+#appengine: *Note:* miljøet de her programmer kører i er deterministisk,
+#appengine: so hver gang du kører eksempelprogrammet vil `rand.Intn`
+#appengine: returnere det samme tal.
 #appengine:
-#appengine: (To see a different number, seed the number generator; see [[https://golang.org/pkg/math/rand/#Seed][`rand.Seed`]].)
+#appengine: (For at se et andet tal, `seed` tal generatoren; se [[https://golang.org/pkg/math/rand/#Seed][`rand.Seed`]].)
 
 .play basics/packages.go
 
-* Imports
+* Importeringer
 
-This code groups the imports into a parenthesized, "factored" import statement. 
+Den her kode grupperer importeringer in i en parenteriseret, "faktoreret" `import` erklæring.
 
-You can also write multiple import statements, like:
+Man kan også skrive adskillige importerings erklæringer, sådan:
 
 	import "fmt"
 	import "math"
 
-But it is good style to use the factored import statement.
+Men det er god programmeringsstil at bruge den faktorerede `import` erklæring.
 
 .play basics/imports.go
 
-* Exported names
+* Eksporterede navne
 
-In Go, a name is exported if it begins with a capital letter.
-For example, `Pizza` is an exported name, as is `Pi`, which is exported from
-the `math` package.
+I Go bliver et navn eksporteret hvis det begynder med et stort bogstav.
+For eksempel, `Pizza` er et eksporteret navn, ligesom `Pi`, hvilket er
+eksporteret fra `math` pakken.
 
-`pizza` and `pi` do not start with a capital letter, so they are not exported.
+`pizza` og `pi` starter ikke med et stort bogstav, så de bliver ikke eksporteret.
 
-When importing a package, you can refer only to its exported names.
-Any "unexported" names are not accessible from outside the package.
+Når man importerer en pakke, kan man kun referere til dens eksporterede navne.
+Alle "ueksporterede" navne kan ikke tilgås udenfor pakken, kun inde i.
 
-Run the code. Notice the error message.
+Kør koden. Læg mærke til fejlbeskeden.
 
-To fix the error, rename `math.pi` to `math.Pi` and try it again.
+Ret `math.pi` til `math.Pi` for at fikse fejlen, og prøv igen
 
 .play basics/exported-names.go
 
