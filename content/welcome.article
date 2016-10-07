@@ -45,7 +45,7 @@ Når du er klar til at gå videre, så klik på [[javascript:highlightAndClick("
 
 * Go lokalt
 
-Touren er tilgængeligt på andre sprog:
+Touren er tilgængelig på andre sprog:
 
 - [[https://go-tour-br.appspot.com/][Brazilian Portuguese — Português do Brasil]]
 - [[https://go-tour-ca.appspot.com/][Catalan — Català]]
@@ -105,9 +105,9 @@ Klik [[javascript:highlightAndClick(".next-page")]["næste"]] knappen eller tryk
 #appengine: 
 #appengine: .play welcome/sandbox.go
 
-* Congratulations
+* Tillykke
 
-You've finished the first module of the tour!
+Du har gennemført tourens første modul!
 
-Now click on [[javascript:highlightAndClick(".logo")][A Tour of Go]] to find out what else
-you can learn about Go, or go directly to the [[javascript:click('.next-page')][next lesson]].
+Klik nu på [[javascript:highlightAndClick(".logo")][A Tour of Go]] for at finde ud af hvad du 
+ellers kan lære om Go, eller gå direkte til [[javascript:click('.next-page')][næste lektion]].
