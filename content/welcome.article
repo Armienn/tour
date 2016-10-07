@@ -12,7 +12,7 @@ Touren er opdelt i en liste af moduler, som du kan
 tilgå ved at klikke på
 [[javascript:highlight(".logo")][A Tour of Go]] i øverste venstre side af siden.
 
-Du kan også se indholdsfortegnelsen på et hvilket som helst tidspunkt ved at klikke på [[javascript:highlightAndClick(".nav")][menu]] i øverste højre side af siden.
+Du kan også se indholdsfortegnelsen på et hvilket som helst tidspunkt ved at klikke på [[javascript:highlightAndClick(".nav")][menuen]] i øverste højre side af siden.
 
 I løbet af touren vil du finde en serie af slides og øvelser 
 at gennemføre.
@@ -25,21 +25,21 @@ Du kan navigerer imellem dem ved brug af
 
 Touren er interaktiv. Klik på
 [[javascript:highlightAndClick("#run")][Run]] knappen nu 
-(eller tast `shift-enter`) for at compile og køre programmet på
+(eller tast `shift-enter`) for at kompilerer og køre programmet på
 #appengine: a remote server.
 din computer.
-Resultatet er vist under koden.
+Resultatet er vist under kodefeltet.
 
 Disse program eksempler demonstrerer forskellige aspekter af Go. Programmerne i touren er ment som begyndelsen af dine egne eksperimenter.
 
 Ændr programmet og kør det igen.
 
-Læg mærke til at når du klikker på [[javascript:highlightAndClick("#format")][Format]] eller `ctrl-enter`
+Læg mærke til at når du klikker på [[javascript:highlightAndClick("#format")][Formater]] eller `ctrl-enter`
 bliver teksten i editoren formateret ved brug af
 [[https://golang.org/cmd/gofmt/][gofmt]] værktøjet. Du kan slå syntaks "highlighting" fra og til
 ved at klikke på [[javascript:highlightAndClick(".syntax-checkbox")][syntax]] knappen.
 
-Når du er klar til at gå videre, klik [[javascript:highlightAndClick(".next-page")][højre pil]] nedenunder eller tryk på `PageDown` knappen.
+Når du er klar til at gå videre, så klik på [[javascript:highlightAndClick(".next-page")][højre pil]] nedenunder eller tryk på `PageDown` knappen.
 
 .play welcome/hello.go
 
@@ -64,7 +64,7 @@ Touren er tilgængeligt på andre sprog:
 - [[https://go-tour-uz.appspot.com/][Uzbek — Ўзбекча]]
 - [[https://go-tour-turkish.appspot.com/][Turkish - Türkçe]]
 
-Klik [[javascript:highlightAndClick(".next-page")]["næste"]] knappen eller tryk på  `PageDown` to continue.
+Klik [[javascript:highlightAndClick(".next-page")]["næste"]] knappen eller tryk på  `PageDown` for at fortsætte.
 
 #appengine: * Go offline
 #appengine: 
