@@ -6,46 +6,46 @@ https://golang.org
 
 * Hello, 世界
 
-Velkommen til en tour af [[https://golang.org/][Go programming language]].
+Velkommen til en tour af [[https://golang.org/][Go programmeringssproget]].
 
 Touren er opdelt i en liste af moduler, som du kan
 tilgå ved at klikke på
-[[javascript:highlight(".logo")][A Tour of Go]] i top venstre side af siden.
+[[javascript:highlight(".logo")][A Tour of Go]] i øverste venstre side af siden.
 
-Du kan også se indholdsfortegnelsen på et hvilket som helst tidspunkt ved at klikke på [[javascript:highlightAndClick(".nav")][menu]] i top højre side af siden.
+Du kan også se indholdsfortegnelsen på et hvilket som helst tidspunkt ved at klikke på [[javascript:highlightAndClick(".nav")][menuen]] i øverste højre side af siden.
 
 I løbet af touren vil du finde en serie af slides og øvelser 
-for dig at gennemføre.
+at gennemføre.
 
 Du kan navigerer imellem dem ved brug af
 
-- [[javascript:highlight(".prev-page")]["previous"]] eller `PageUp` for at gå til forrige side,
+- [[javascript:highlight(".prev-page")]["forrige"]] eller `PageUp` for at gå til forrige side,
 
-- [[javascript:highlight(".next-page")]["next"]] eller `PageDown` for at gå til næste side.
+- [[javascript:highlight(".next-page")]["næste"]] eller `PageDown` for at gå til næste side.
 
-Touren er inaktiv. Klik på
+Touren er interaktiv. Klik på
 [[javascript:highlightAndClick("#run")][Run]] knappen nu 
-(eller tast `shift-enter`) for at compile og køre programmet på
+(eller tast `shift-enter`) for at kompilerer og køre programmet på
 #appengine: a remote server.
 din computer.
-Resultatet er vist under koden.
+Resultatet er vist under kodefeltet.
 
 Disse program eksempler demonstrerer forskellige aspekter af Go. Programmerne i touren er ment som begyndelsen af dine egne eksperimenter.
 
-Edit the program and run it again.
+Ændr programmet og kør det igen.
 
-Note that when you click on [[javascript:highlightAndClick("#format")][Format]] or `ctrl-enter`
-the text in the editor is formatted using the
-[[https://golang.org/cmd/gofmt/][gofmt]] tool. You can switch syntax highlighting on and off
-by clicking on the [[javascript:highlightAndClick(".syntax-checkbox")][syntax]] button.
+Læg mærke til at når du klikker på [[javascript:highlightAndClick("#format")][Formater]] eller `ctrl-enter`
+bliver teksten i editoren formateret ved brug af
+[[https://golang.org/cmd/gofmt/][gofmt]] værktøjet. Du kan slå syntaks "highlighting" fra og til
+ved at klikke på [[javascript:highlightAndClick(".syntax-checkbox")][syntax]] knappen.
 
-When you're ready to move on, click the [[javascript:highlightAndClick(".next-page")][right arrow]] below or type the `PageDown` key.
+Når du er klar til at gå videre, så klik på [[javascript:highlightAndClick(".next-page")][højre pil]] nedenunder eller tryk på `PageDown` knappen.
 
 .play welcome/hello.go
 
-* Go local
+* Go lokalt
 
-The tour is available in other languages:
+Touren er tilgængelig på andre sprog:
 
 - [[https://go-tour-br.appspot.com/][Brazilian Portuguese — Português do Brasil]]
 - [[https://go-tour-ca.appspot.com/][Catalan — Català]]
@@ -64,7 +64,7 @@ The tour is available in other languages:
 - [[https://go-tour-uz.appspot.com/][Uzbek — Ўзбекча]]
 - [[https://go-tour-turkish.appspot.com/][Turkish - Türkçe]]
 
-Click the [[javascript:highlightAndClick(".next-page")]["next"]] button or type `PageDown` to continue.
+Klik [[javascript:highlightAndClick(".next-page")]["næste"]] knappen eller tryk på  `PageDown` for at fortsætte.
 
 #appengine: * Go offline
 #appengine: 
@@ -105,9 +105,9 @@ Click the [[javascript:highlightAndClick(".next-page")]["next"]] button or type 
 #appengine: 
 #appengine: .play welcome/sandbox.go
 
-* Congratulations
+* Tillykke
 
-You've finished the first module of the tour!
+Du har gennemført tourens første modul!
 
-Now click on [[javascript:highlightAndClick(".logo")][A Tour of Go]] to find out what else
-you can learn about Go, or go directly to the [[javascript:click('.next-page')][next lesson]].
+Klik nu på [[javascript:highlightAndClick(".logo")][A Tour of Go]] for at finde ud af hvad du 
+ellers kan lære om Go, eller gå direkte til [[javascript:click('.next-page')][næste lektion]].
